@@ -1,0 +1,17 @@
+.navbar,
+.navbar-brand,
+.nav-link{
+    background-color: #373A3C;
+    color: white;
+}
+
+.principal{
+    width: 482px;
+}
+
+.principal-txt{
+    width: 648;     
+}
+ #ingre{
+    list-style: none;
+ }
