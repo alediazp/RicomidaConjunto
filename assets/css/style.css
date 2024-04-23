@@ -1,17 +1,27 @@
 .navbar,
-.navbar-brand,
-.nav-link{
+.navbar-link,
+.navbar-brand{
     background-color: #373A3C;
+}
+
+.navbar-brand{
+    font-family: lobster !important;
     color: white;
 }
 
-.principal{
+.nav-link{
+    color: white;
+    font-family: cabin;
+}
+
+.principal {
     width: 482px;
 }
 
-.principal-txt{
-    width: 648;     
+.principal-txt {
+    width: 648;
 }
- #ingre{
+
+#ingre {
     list-style: none;
- }
+}
