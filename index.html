@@ -22,15 +22,15 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid mx-5">
+    <nav class="navbar navbar-expand-lg"> <!-- nav de marcela -->
+        <div class="container-fluid">
             <a class="navbar-brand" href="#"> Ricomida </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto mb-2 mb-lg-0"> <!-- botones a la derecha -->
+                <div class="bttn-link navbar-nav ms-auto mb-2 mb-lg-0"> <!-- botones a la derecha -->
                     <a class="nav-link" href="#">Inicio</a>
                     <a class="nav-link" href="#">Recetas</a>
                     <a class="nav-link" href="#">Nosotros</a>
@@ -39,22 +39,27 @@
             </div>
         </div>
     </nav>
-<!--     linea con un comentario-->    
+    <!--     linea con un comentario-->
     <header>
         <div class="container my-3">
-            <img class="principal-img img-fluid" style="width: 332;" src="assets/img/principal.jpg"
+            <hr class="d-block d-sm-none">
+            <div class="row">
+                
+                <img class="principal-img col-12 col-md-6 col-lg-6 " style="width: 332;" src="assets/img/principal.jpg"
                 alt="Imagen de una pizza">
 
-            <div class=" principal-txt">
+            <div class=" principal-txt col-12 col-md-6 col-lg-6">
                 <h1>PIZZA AL ESTILO <br> CHICAGO CON <br> ESPINACAS Y <br> CHAMPIÑONES</h1>
-                <hr class="linea1">
+                <hr class="line">
                 <h3>110 MIN / 6 A 8 PORCIONES</h3>
                 <a href="#"><button type="button" class="btn btn-outline-dark">Enviar por correo</button></a>
                 <a href="#"><button type="button" class="btn btn-outline-dark">Añadir a favoritos</button></a>
             </div>
+            </div>
+            
         </div>
 
-        <div class="container">
+        <div class="container d-none d-sm-block">
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -101,12 +106,13 @@
     <section>
         <div class="container my-3"> <!-- texto -->
             <div class="row">
-                <div class="col-12 col-md-6 col-xl-6 d-left"> <!-- izquierdo -->
-                    <h3>INGREDIENTES</h3>
-                    <hr>
-                    <div class=" p-3 ">
-                        <p>Masa</p>
+                <div class="col-12 col-md-6 col-xl-6"> <!-- izquierdo -->
+                    <h3 class="t-lr">INGREDIENTES</h3>
+                    <hr class="line">
+                    <div class="d-flex justify-content-start p-3 d-lr">
                         <ul id="ingre">
+                            <li>Masa</li>
+                            <br>
                             <li> 20 gr de levadura seca instantánea</li>
                             <li>1 cucharadita de azúcar</li>
                             <li>500 ml agua tibia</li>
@@ -115,10 +121,9 @@
                             <li>65 gr harina de maíz fina (chuchoca)</li>
                             <li>2 cucharaditas de sal</li>
                             <li>625 gr harina</li>
-                            <li></li>
-                        </ul>
-                        <p>Salsa</p>
-                        <ul id="ingre">
+                            <br>
+                            <li>Salsa</li>
+                            <br>
                             <li>5 cucharadas de aceite de oliva</li>
                             <li>½ cebolla picada en cubos finos</li>
                             <li>2 cucharaditas de sal</li>
@@ -126,9 +131,9 @@
                             <li>1 ½ cucharadas de Albahaca Gourmet</li>
                             <li>2 tarro de tomates en cubos al natural</li>
                             <li>2 cucharaditas de azúcar</li>
-                        </ul>
-                        <p>Relleno</p>
-                        <ul id="ingre">
+                            <br>
+                            <li>Relleno</li>
+                            <br>
                             <li>½ cebolla, en cubos</li>
                             <li>500 gr hojas de espinacas picadas</li>
                             <li>400 gr de champiñones, laminados</li>
@@ -137,10 +142,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-xl-6 d-right"> <!-- derecho -->
-                    <h3> PREPARACIÓN </h3>
-                    <hr>
-                    <ol class="p-3 mx-5">
+                <div class="col-12 col-md-6 col-xl-6"> <!-- derecho -->
+                    <h3 class="t-lr"> PREPARACIÓN </h3>
+                    <hr class="line">
+                    <ol class="p-3 mx-5 d-lr">
                         <li>Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar
                             reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar
                             bien.
@@ -157,6 +162,7 @@
                             masa
                             para que baje y luego dejar leudar por 40 minutos adicionales.
                         </li>
+                        <br>
                         <li>
                             Mientras tanto preparar la salsa:
                             Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano
@@ -171,16 +177,19 @@
                             pimienta
                             a gusto. Reservar.
                         </li>
+                        <br>
                         <li>
                             Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén
                             transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se
                             haya
                             evaporado todo el líquido que hayan votado los vegetales. Reservar.
                         </li>
+                        <br>
                         <li>
                             Calentar el horno a 220C.
 
                         </li>
+                        <br>
                         <li>
                             Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos
                             moldes
@@ -191,6 +200,7 @@
                             espolvorear el
                             queso rallado.
                         </li>
+                        <br>
                         <li>
                             Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base
                             esté

@@ -6,12 +6,24 @@
 
 .navbar-brand{
     font-family: lobster !important;
+    font-weight: 400;
+    font-size: 37px;
     color: white;
+    margin-left: 16%;
+}
+
+.navbar-toggler{
+    margin-right: 5%;
+}
+.bttn-link{
+    margin-right: 20%;
 }
 
 .nav-link{
     color: white;
     font-family: cabin;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .principal {
@@ -20,11 +32,23 @@
 
 .principal-txt {
     width: 648;
+    font-family: cabin;
+    font-weight: 700;
+}
+.t-lr{
+    font-family: cabin;
+    font-weight: 700;
 }
 
-.linea1{
+.d-lr{
+    font-family: cabin;
+    font-weight: 300;
+}
+
+
+.line{
     height: 5px;
-    width: 50%;   
+    width: 40%;   
 }
 
 #ingre {
