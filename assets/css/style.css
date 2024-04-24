@@ -22,6 +22,11 @@
     width: 648;
 }
 
+.linea1{
+    height: 5px;
+    width: 50%;   
+}
+
 #ingre {
     list-style: none;
 }
