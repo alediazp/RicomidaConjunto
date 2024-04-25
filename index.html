@@ -52,8 +52,9 @@
                     <h1>PIZZA AL ESTILO <br> CHICAGO CON <br> ESPINACAS Y <br> CHAMPIÑONES</h1>
                     <hr class="line">
                     <h3>110 MIN / 6 A 8 PORCIONES</h3>
-                    <a href="#"><button type="button" class="btn btn-outline-dark">Enviar por correo</button></a>
-                    <a href="#"><button type="button" class="btn btn-outline-dark">Añadir a favoritos</button></a>
+                        
+                        <a id="enviarCorreo" title="Presiona para enviar a tu correo" href="#"><button type="button" class="btn btn-outline-dark">Enviar por correo</button></a>
+                        <a id="agregaFavoritos" title="Agrega esta receta a tus favoritos" href="#"><button type="button" class="btn btn-outline-dark">Añadir a favoritos</button></a>
                 </div>
             </div>
 
@@ -107,7 +108,7 @@
         <div class="container my-3"> <!-- texto -->
             <div class="row">
                 <div class="col-12 col-md-6 col-xl-6"> <!-- izquierdo -->
-                    <h3 class="t-lr">INGREDIENTES</h3>
+                    <h3 id="ingredientes" class="t-lr">INGREDIENTES</h3>
                     <hr class="line">
                     <div class="d-flex justify-content-start p-3 d-lr">
                         <ul id="ingre">
@@ -213,11 +214,16 @@
     </section>
 
     <section>
+        <hr>
+        <h3 class="t-lr"> RECETAS RELACIONADAS </h3>
+
+        
+        <div class="container recetas">
         <div class="container">
             <hr>
             <h3 class="txt-card"> RECETAS RELACIONADAS </h3>
             <br>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="recetas row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card">
                         <img src="assets/img/recipe-card-1.png" class="card-img-top" alt="...">
