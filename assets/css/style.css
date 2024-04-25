@@ -1,10 +1,10 @@
 .navbar,
 .navbar-link,
-.navbar-brand{
+.navbar-brand {
     background-color: #373A3C;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: lobster !important;
     font-weight: 400;
     font-size: 37px;
@@ -12,14 +12,15 @@
     margin-left: 16%;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     margin-right: 5%;
 }
-.bttn-link{
+
+.bttn-link {
     margin-right: 20%;
 }
 
-.nav-link{
+.nav-link {
     color: white;
     font-family: cabin;
     font-weight: 400;
@@ -35,22 +36,33 @@
     font-family: cabin;
     font-weight: 700;
 }
-.t-lr{
+
+.t-lr {
     font-family: cabin;
     font-weight: 700;
 }
 
-.d-lr{
+.d-lr {
     font-family: cabin;
     font-weight: 300;
 }
 
 
-.line{
+.line {
     height: 5px;
-    width: 40%;   
+    width: 40%;
 }
 
 #ingre {
     list-style: none;
+}
+
+.suscripciones {
+    padding: 6em 2em;
+    background-color: #DC3545;
+}
+
+.txt-logo {
+    font-family: lobster;
+    font-weight: 300;
 }
