@@ -9,7 +9,7 @@
     font-weight: 400;
     font-size: 37px;
     color: white;
-    margin-left: 16%;
+    margin-left: 6%;
 }
 
 .navbar-toggler {
@@ -17,7 +17,7 @@
 }
 
 .bttn-link {
-    margin-right: 20%;
+    margin-right: 7%;
 }
 
 .nav-link {
@@ -56,13 +56,27 @@
 #ingre {
     list-style: none;
 }
+.txt-card{
+    text-align: center;
+}
 
 .suscripciones {
     padding: 6em 2em;
     background-color: #DC3545;
 }
 
+.txt-footer,
 .txt-logo {
     font-family: lobster;
     font-weight: 300;
+    color: white;
+}
+
+
+footer{
+    height: 70px;
+    background-color: #373A3C;
+    text-align: center;
+    font-size: 46px;
+
 }
