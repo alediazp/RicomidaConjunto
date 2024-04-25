@@ -8,3 +8,11 @@ $(function () {
     $("#enviarCorreo").tooltip();
     $("#agregaFavoritos").tooltip();
 });
+
+
+$(document).ready(function () {
+    $(".container .recetas").click(function () {
+        $(this).parent()
+            .find(".recetas").toggle();
+    });
+});
