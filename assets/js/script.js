@@ -10,9 +10,7 @@ $(function () {
 });
 
 
-$(document).ready(function () {
-    $(".container .recetas").click(function () {
-        $(this).parent()
-            .find(".recetas").toggle();
-    });
-});
+$('.card-title').on('click', function (event) {
+    event.preventDefault();
+    $('.card-img-top, .card-text').toggle()
+})
